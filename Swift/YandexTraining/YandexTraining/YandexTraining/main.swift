@@ -11,5 +11,5 @@ func main(_ testFunction : () -> Void) {
     testFunction()
 }
 
-main(testLessonTwo)
+main(testLessonFour)
 
