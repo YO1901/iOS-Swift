@@ -1,11 +1,12 @@
 //
 //  main.swift
-//  LigaMobileCourse
+//  HW1
 //
-//  Created by Yerlan Omarov on 15.02.2022.
+//  Created by Yerlan Omarov on 23.02.2022.
 //
 
 import Foundation
+
 // хотим добавить функциональности структуре
 class Person: Equatable, Hashable {
     let name: String
