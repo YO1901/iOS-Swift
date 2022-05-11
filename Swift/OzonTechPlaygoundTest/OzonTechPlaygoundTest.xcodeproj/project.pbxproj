@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431D2FA82826887800A08A5E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FA72826887800A08A5E /* main.swift */; };
+		431D2FAF28268ED800A08A5E /* TaskA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FAE28268ED800A08A5E /* TaskA.swift */; };
+		431D2FB128268F9600A08A5E /* TaskB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FB028268F9600A08A5E /* TaskB.swift */; };
+		431D2FB32826D24200A08A5E /* TaskC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FB22826D24200A08A5E /* TaskC.swift */; };
+		431D2FB52826E3A600A08A5E /* TaskD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FB42826E3A600A08A5E /* TaskD.swift */; };
+		431D2FB72826FDE100A08A5E /* TaskE1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FB62826FDE100A08A5E /* TaskE1.swift */; };
+		431D2FB92827CE8C00A08A5E /* TaskE2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FB82827CE8C00A08A5E /* TaskE2.swift */; };
+		431D2FBB2827DD9000A08A5E /* TaskF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FBA2827DD9000A08A5E /* TaskF.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		431D2FA22826887800A08A5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		431D2FA42826887800A08A5E /* OzonTechPlaygoundTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OzonTechPlaygoundTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431D2FA72826887800A08A5E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		431D2FAE28268ED800A08A5E /* TaskA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskA.swift; sourceTree = "<group>"; };
+		431D2FB028268F9600A08A5E /* TaskB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskB.swift; sourceTree = "<group>"; };
+		431D2FB22826D24200A08A5E /* TaskC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskC.swift; sourceTree = "<group>"; };
+		431D2FB42826E3A600A08A5E /* TaskD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskD.swift; sourceTree = "<group>"; };
+		431D2FB62826FDE100A08A5E /* TaskE1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskE1.swift; sourceTree = "<group>"; };
+		431D2FB82827CE8C00A08A5E /* TaskE2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskE2.swift; sourceTree = "<group>"; };
+		431D2FBA2827DD9000A08A5E /* TaskF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskF.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431D2FA12826887800A08A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431D2F9B2826887800A08A5E = {
+			isa = PBXGroup;
+			children = (
+				431D2FA62826887800A08A5E /* OzonTechPlaygoundTest */,
+				431D2FA52826887800A08A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		431D2FA52826887800A08A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431D2FA42826887800A08A5E /* OzonTechPlaygoundTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431D2FA62826887800A08A5E /* OzonTechPlaygoundTest */ = {
+			isa = PBXGroup;
+			children = (
+				431D2FA72826887800A08A5E /* main.swift */,
+				431D2FBA2827DD9000A08A5E /* TaskF.swift */,
+				431D2FAE28268ED800A08A5E /* TaskA.swift */,
+				431D2FB028268F9600A08A5E /* TaskB.swift */,
+				431D2FB22826D24200A08A5E /* TaskC.swift */,
+				431D2FB42826E3A600A08A5E /* TaskD.swift */,
+				431D2FB62826FDE100A08A5E /* TaskE1.swift */,
+				431D2FB82827CE8C00A08A5E /* TaskE2.swift */,
+			);
+			path = OzonTechPlaygoundTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431D2FA32826887800A08A5E /* OzonTechPlaygoundTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431D2FAB2826887800A08A5E /* Build configuration list for PBXNativeTarget "OzonTechPlaygoundTest" */;
+			buildPhases = (
+				431D2FA02826887800A08A5E /* Sources */,
+				431D2FA12826887800A08A5E /* Frameworks */,
+				431D2FA22826887800A08A5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OzonTechPlaygoundTest;
+			productName = OzonTechPlaygoundTest;
+			productReference = 431D2FA42826887800A08A5E /* OzonTechPlaygoundTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431D2F9C2826887800A08A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					431D2FA32826887800A08A5E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 431D2F9F2826887800A08A5E /* Build configuration list for PBXProject "OzonTechPlaygoundTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 431D2F9B2826887800A08A5E;
+			productRefGroup = 431D2FA52826887800A08A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431D2FA32826887800A08A5E /* OzonTechPlaygoundTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431D2FA02826887800A08A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431D2FB92827CE8C00A08A5E /* TaskE2.swift in Sources */,
+				431D2FB72826FDE100A08A5E /* TaskE1.swift in Sources */,
+				431D2FB32826D24200A08A5E /* TaskC.swift in Sources */,
+				431D2FB128268F9600A08A5E /* TaskB.swift in Sources */,
+				431D2FA82826887800A08A5E /* main.swift in Sources */,
+				431D2FB52826E3A600A08A5E /* TaskD.swift in Sources */,
+				431D2FAF28268ED800A08A5E /* TaskA.swift in Sources */,
+				431D2FBB2827DD9000A08A5E /* TaskF.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		431D2FA92826887800A08A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		431D2FAA2826887800A08A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		431D2FAC2826887800A08A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QL72V7DXZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		431D2FAD2826887800A08A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QL72V7DXZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431D2F9F2826887800A08A5E /* Build configuration list for PBXProject "OzonTechPlaygoundTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431D2FA92826887800A08A5E /* Debug */,
+				431D2FAA2826887800A08A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431D2FAB2826887800A08A5E /* Build configuration list for PBXNativeTarget "OzonTechPlaygoundTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431D2FAC2826887800A08A5E /* Debug */,
+				431D2FAD2826887800A08A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431D2F9C2826887800A08A5E /* Project object */;
+}
