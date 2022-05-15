@@ -7,68 +7,105 @@
 
 import Foundation
 
-enum Sign: Character {
-    case empty = "."
-    case cross = "X"
-    case zero = "0"
-}
-
 let collectionCount = Int(readLine() ?? "") ?? 0
-var field = Array(repeating: Array(repeating: Sign.empty.rawValue, count: 3), count: 3)
+var recordCount = 0
+var requestCount = 0
+
+var array: [String]?
+var dependenciesList = [String: [String]]()
 var i = 0
 var j = 0
-var l = 0
-var crossCount = 0
-var zeroCount = 0
-var placeHolder: String? = nil
-var hasWinner = false
+var k = 0
+var key = ""
+var requests = [String]()
+var list = [String]()
+var placeholder = ""
+var ready = Set<String>()
 
 while i < collectionCount {
-    i += 1
-    placeHolder = readLine()
-    crossCount = 0
-    zeroCount = 0
+    placeholder = readLine() ?? ""
+    recordCount = Int(readLine() ?? "") ?? 0
+    
     j = 0
-    while j < 3 {
-        var k = 0
-        while k < 3 {
-            /*vscanf(&field[k][j], <#T##CVaListPointer#>)
-            if item == Sign.cross.rawValue {
-                crossCount += 1
-            } else if item == Sign.zero.rawValue {
-                zeroCount += 1
-            }*/
-            k += 1
-        }
-        /*field[j] = Array(readLine() ?? "")
-        for item in field[j] {
-            if item == Sign.cross.rawValue {
-                crossCount += 1
-            } else if item == Sign.zero.rawValue {
-                zeroCount += 1
+    while j < recordCount {
+        array = readLine()?.split(separator: Character(" ")).map(String.init)
+        if array != nil, array?.first != nil, array?.last != nil , array?.first! != nil, array?.last! != nil {
+            key = array!.first!
+            key.removeLast()
+            dependenciesList[key] = [String]()
+            k = 1
+            while k < array!.count {
+                dependenciesList[key]!.append(array![k])
+                k += 1
             }
-        }*/
+        }
         j += 1
     }
-    guard crossCount - zeroCount < 2 && crossCount - zeroCount > -1 else {
-        print("NO")
-        continue
+    requestCount = Int(readLine() ?? "") ?? 0
+    requests.removeAll()
+    j = 0
+    while j < requestCount {
+        requests.append(readLine() ?? "")
+        j += 1
     }
-    l = 0
-    hasWinner = false
-    while l < 3 {
-        if (field[l][0] == field[l][1]  && field[l][1] == field[l][2] && field[l][0] != Sign.empty.rawValue) || (field[0][l] == field[1][l]  && field[1][l] == field[2][l] && field[0][l] != Sign.empty.rawValue) {
-            hasWinner = true
-            break
+    ready.removeAll()
+    for item in requests {
+        list = getList(item).reversed()
+        print(list.count, terminator: " ")
+        for l in list {
+            print(l, terminator: " ")
         }
-        l += 1
+        print()
+        j += 1
     }
-    if (field[0][0] == field[1][1]  && field[1][1] == field[2][2] && field[1][1] != Sign.empty.rawValue) || (field[0][2] == field[1][1]  && field[1][1] == field[2][0] && field[1][1] != Sign.empty.rawValue) {
-        hasWinner = true
+    print()
+    i += 1
+}
+
+
+func getList(_ item: String) -> [String] {
+    var result = [String]()
+    if dependenciesList[item]!.isEmpty && !ready.contains(item) {
+        result.append(item)
+        ready.insert(item)
+        return result
     }
-    if hasWinner && crossCount - zeroCount == 0 {
-        print("NO")
-        continue
+    
+    if !ready.contains(item) {
+        result.append(item)
+        ready.insert(item)
     }
-    print("YES")
+    var sett = Set<String>()
+    for elem in dependenciesList[item]! {
+        for itt in getAllDependencies(elem) {
+            sett.insert(itt)
+        }
+    }
+    for elem in dependenciesList[item]! {
+        if sett.contains
+    }
+    
+    for elem in dependenciesList[item]! {
+        if !ready.contains(elem) {
+            result.append(elem)
+            ready.insert(elem)
+        }
+    }
+    
+    for elem in dependenciesList[item]! {
+        result += getList(elem)
+    }
+    
+    return result
+}
+
+func getAllDependencies(_ item: String)  -> [String] {
+    var result = [String]()
+    if dependenciesList[item]!.isEmpty {
+        return result
+    }
+    for elem in dependenciesList[item]! {
+        result += getAllDependencies(elem)
+    }
+    return result
 }

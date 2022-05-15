@@ -15,6 +15,12 @@
 		431D2FB72826FDE100A08A5E /* TaskE1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FB62826FDE100A08A5E /* TaskE1.swift */; };
 		431D2FB92827CE8C00A08A5E /* TaskE2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FB82827CE8C00A08A5E /* TaskE2.swift */; };
 		431D2FBB2827DD9000A08A5E /* TaskF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431D2FBA2827DD9000A08A5E /* TaskF.swift */; };
+		436B1D8D28309A02000B00D8 /* TaskG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B1D8C28309A02000B00D8 /* TaskG.swift */; };
+		436B1D8F2830FA0A000B00D8 /* MainTaskA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B1D8E2830FA0A000B00D8 /* MainTaskA.swift */; };
+		436B1D912830FEBB000B00D8 /* MainTaskB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B1D902830FEBB000B00D8 /* MainTaskB.swift */; };
+		436B1D93283108F3000B00D8 /* MainTaskC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B1D92283108F3000B00D8 /* MainTaskC.swift */; };
+		436B1D95283112F6000B00D8 /* MainTaskD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B1D94283112F6000B00D8 /* MainTaskD.swift */; };
+		436B1D972831271E000B00D8 /* MainTaskE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B1D962831271E000B00D8 /* MainTaskE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +45,12 @@
 		431D2FB62826FDE100A08A5E /* TaskE1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskE1.swift; sourceTree = "<group>"; };
 		431D2FB82827CE8C00A08A5E /* TaskE2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskE2.swift; sourceTree = "<group>"; };
 		431D2FBA2827DD9000A08A5E /* TaskF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskF.swift; sourceTree = "<group>"; };
+		436B1D8C28309A02000B00D8 /* TaskG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskG.swift; sourceTree = "<group>"; };
+		436B1D8E2830FA0A000B00D8 /* MainTaskA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskA.swift; sourceTree = "<group>"; };
+		436B1D902830FEBB000B00D8 /* MainTaskB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskB.swift; sourceTree = "<group>"; };
+		436B1D92283108F3000B00D8 /* MainTaskC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskC.swift; sourceTree = "<group>"; };
+		436B1D94283112F6000B00D8 /* MainTaskD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskD.swift; sourceTree = "<group>"; };
+		436B1D962831271E000B00D8 /* MainTaskE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				431D2FA72826887800A08A5E /* main.swift */,
+				436B1D962831271E000B00D8 /* MainTaskE.swift */,
+				436B1D94283112F6000B00D8 /* MainTaskD.swift */,
+				436B1D902830FEBB000B00D8 /* MainTaskB.swift */,
+				436B1D92283108F3000B00D8 /* MainTaskC.swift */,
+				436B1D8E2830FA0A000B00D8 /* MainTaskA.swift */,
 				431D2FBA2827DD9000A08A5E /* TaskF.swift */,
+				436B1D8C28309A02000B00D8 /* TaskG.swift */,
 				431D2FAE28268ED800A08A5E /* TaskA.swift */,
 				431D2FB028268F9600A08A5E /* TaskB.swift */,
 				431D2FB22826D24200A08A5E /* TaskC.swift */,
@@ -142,11 +160,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				431D2FB92827CE8C00A08A5E /* TaskE2.swift in Sources */,
+				436B1D8F2830FA0A000B00D8 /* MainTaskA.swift in Sources */,
 				431D2FB72826FDE100A08A5E /* TaskE1.swift in Sources */,
+				436B1D972831271E000B00D8 /* MainTaskE.swift in Sources */,
 				431D2FB32826D24200A08A5E /* TaskC.swift in Sources */,
 				431D2FB128268F9600A08A5E /* TaskB.swift in Sources */,
+				436B1D93283108F3000B00D8 /* MainTaskC.swift in Sources */,
 				431D2FA82826887800A08A5E /* main.swift in Sources */,
 				431D2FB52826E3A600A08A5E /* TaskD.swift in Sources */,
+				436B1D8D28309A02000B00D8 /* TaskG.swift in Sources */,
+				436B1D95283112F6000B00D8 /* MainTaskD.swift in Sources */,
+				436B1D912830FEBB000B00D8 /* MainTaskB.swift in Sources */,
 				431D2FAF28268ED800A08A5E /* TaskA.swift in Sources */,
 				431D2FBB2827DD9000A08A5E /* TaskF.swift in Sources */,
 			);
