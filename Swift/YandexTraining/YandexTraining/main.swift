@@ -11,5 +11,5 @@ func main(_ testFunction : () -> Void) {
     testFunction()
 }
 
-main(cAlmostQuadraticNumbers)
+main(testTask)
 
