@@ -11,5 +11,5 @@ func main(_ testFunction : () -> Void) {
     testFunction()
 }
 
-main(testLessonFour)
+main(cAlmostQuadraticNumbers)
 

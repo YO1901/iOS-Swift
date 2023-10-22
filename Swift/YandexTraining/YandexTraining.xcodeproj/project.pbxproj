@@ -13,6 +13,8 @@
 		22DA37B426F7574400BB6241 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA37B326F7574400BB6241 /* main.swift */; };
 		22DA37BB26F7583E00BB6241 /* SolutionLesssonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA37BA26F7583E00BB6241 /* SolutionLesssonOne.swift */; };
 		22DA37BD26F7585500BB6241 /* TestFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA37BC26F7585500BB6241 /* TestFunctions.swift */; };
+		433DF72B28576829006B7D29 /* MobileInternship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433DF72A28576829006B7D29 /* MobileInternship.swift */; };
+		437143CE2919876000A5853A /* YandexCup2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437143CD2919876000A5853A /* YandexCup2022.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		22DA37B326F7574400BB6241 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22DA37BA26F7583E00BB6241 /* SolutionLesssonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionLesssonOne.swift; sourceTree = "<group>"; };
 		22DA37BC26F7585500BB6241 /* TestFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFunctions.swift; sourceTree = "<group>"; };
+		433DF72A28576829006B7D29 /* MobileInternship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileInternship.swift; sourceTree = "<group>"; };
+		437143CD2919876000A5853A /* YandexCup2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexCup2022.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				22DA37B326F7574400BB6241 /* main.swift */,
+				437143CD2919876000A5853A /* YandexCup2022.swift */,
 				22DA37BC26F7585500BB6241 /* TestFunctions.swift */,
 				22DA37BA26F7583E00BB6241 /* SolutionLesssonOne.swift */,
 				222FBCB52710356F00955854 /* SolutionLessonTwo.swift */,
 				22BE843827135B6C00147C0F /* SolutionLessonThree.swift */,
 				224B451C2714765700C4EFFE /* SolutionLessonFour.swift */,
+				433DF72A28576829006B7D29 /* MobileInternship.swift */,
 			);
 			path = YandexTraining;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			files = (
 				224B451D2714765700C4EFFE /* SolutionLessonFour.swift in Sources */,
 				22DA37B426F7574400BB6241 /* main.swift in Sources */,
+				433DF72B28576829006B7D29 /* MobileInternship.swift in Sources */,
 				222FBCB62710356F00955854 /* SolutionLessonTwo.swift in Sources */,
 				22BE843927135B6C00147C0F /* SolutionLessonThree.swift in Sources */,
+				437143CE2919876000A5853A /* YandexCup2022.swift in Sources */,
 				22DA37BD26F7585500BB6241 /* TestFunctions.swift in Sources */,
 				22DA37BB26F7583E00BB6241 /* SolutionLesssonOne.swift in Sources */,
 			);
